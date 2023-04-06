@@ -39,3 +39,15 @@ int main()
     cout << "False";
     return 0;
 }
+
+//In primele linii am adaugat elementele date intr-un vector si am facut suma elementelor
+
+//Am realizat (si sper ca-i si corect) ca daca o medie dintr-un vector nou creat este egala cu media
+//vectorului initial, atunci vectorul initial respecta enuntul problemei
+
+//Mai apoi am creat fiecare vector posibil ,numar_de_vectori fiind numarul total de vectori ce pot fii 
+//creati.Pe linia 30 am vrut sa exclud cazurile in care vectorul e null sau cand vectorul coincide cu
+//vectorul initial.
+
+//Mai apoi am comparat daca raporturile sunt egale, iar daca da afiseaza "True" si opreste programul in
+//acel moment,in caz contrar afiseaza "False"
